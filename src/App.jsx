@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Header from "./components/Header";
-import Home from "./components/Home";
+import Home from "./pages/Home";
 import PetsList from "./components/PetsList";
 import PetView from "./components/PetView";
-import ContactUs from "./components/ContactUs";
+import ContactUs from "./pages/ContactUs";
 import NotFound from "./components/NotFound";
 import "./styles.css";
 
